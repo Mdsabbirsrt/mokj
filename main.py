@@ -540,7 +540,7 @@ def send_commands(message):
 🔹 */resume* - Resume the paused checking process.
 🔹 *Upload a .txt file* - Upload a text file with CC combos to start checking.
 
-💡 *Note:* Only authorized users can access the bot. Contact @Ownerxxxxx for authorization.
+💡 *Note:* Only authorized users can access the bot. Contact @dar666787 for authorization.
     """
     
     bot.send_message(message.chat.id, commands_text, parse_mode="Markdown")
