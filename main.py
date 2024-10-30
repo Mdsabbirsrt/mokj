@@ -525,7 +525,7 @@ def send_welcome(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact @Ownerxxxxx for authorization.
+You are not authorized to use this bot. Please contact@ dar666787for authorization.
         """
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
 @bot.message_handler(commands=['cmd', 'cmds'])
@@ -768,7 +768,7 @@ def add_premium_user(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@Ownerxxxxx** for authorization.
+You are not authorized to use this bot. Please contact **@dar666787** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
