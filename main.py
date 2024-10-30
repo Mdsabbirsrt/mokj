@@ -9,7 +9,7 @@ from keep_alive import keep_alive
 keep_alive()
  
 ## Join Telegram Channel https://t.me/+wij9jAfD7l00NzY1
-## @Ownerxxxxx
+## @dar666787
 
 BOT_API_KEY = '7819656172:AAFo9XjkRk6LXfVHArkeMn_4uLIzyqzHp10'
 OWNER_ID = 8143679178
@@ -525,7 +525,7 @@ def send_welcome(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact@ dar666787for authorization.
+You are not authorized to use this bot. Please contact @dar666787 for authorization.
         """
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
 @bot.message_handler(commands=['cmd', 'cmds'])
@@ -612,7 +612,7 @@ async def _check_cc(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:**@dar666787
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @dar666787
     """,
     parse_mode="Markdown"
 )
@@ -647,7 +647,7 @@ async def _check_cc(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@dar666787* for authorization.
+You are not authorized to use this bot. Please contact **@dar666787** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
@@ -768,7 +768,7 @@ def add_premium_user(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@Ownerxxxxx** for authorization.
+You are not authorized to use this bot. Please contact **@dar666787** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
