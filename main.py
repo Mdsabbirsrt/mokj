@@ -889,6 +889,44 @@ You are not authorized to use this bot. Please contact **@dar666787** for author
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
+def generate_random_number(digits):
+    """
+    Generates a random integer with the specified number of digits.
+    """
+    lower_bound = 10**(digits - 1)
+    upper_bound = 10**digits - 1
+    return random.randint(lower_bound, upper_bound)
+
+def start(update, context):
+    """
+    Sends a welcome message when the bot starts.
+    """
+    update.message.reply_text("Hello! To generate a random number, use the command '/random <number_of_digits>'")
+
+def random_number(update, context):
+    """
+    Handles the '/bin' command and generates random numbers.
+    """
+    try:
+        # Extract the number of digits from the command arguments
+        digits = int(context.args[0])
+        # Generate a random number with the specified number of digits
+        random_number = generate_random_number(digits)
+        # Send the random number as a reply
+        update.message.reply_text(str(random_number))
+    except (IndexError, ValueError):
+        update.message.reply_text("Invalid input. Please use the format '/bin <number_of_digits>'")
+
+def main():
+    """
+    Starts the bot.
+    """
+    # Create an Updater and pass your bot token
+    updater = Updater(TOKEN, use_context=True)
+
+
+    # Register the random number command handler
+    dispatcher.add_handler(CommandHandler("random", random_number))
 
 
 bot.infinity_polling()
