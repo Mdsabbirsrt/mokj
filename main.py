@@ -11,8 +11,8 @@ keep_alive()
 ## Join Telegram Channel https://t.me/+wij9jAfD7l00NzY1
 ## @Ownerxxxxx
 
-BOT_API_KEY = '6907232495:AAGWBPq7aMaVqwfsxMpjqPsw1iDvZzoIZK4'
-OWNER_ID = 6060534504
+BOT_API_KEY = '7819656172:AAFo9XjkRk6LXfVHArkeMn_4uLIzyqzHp10'
+OWNER_ID = 8143679178
 
 
 bot = telebot.TeleBot(BOT_API_KEY)
