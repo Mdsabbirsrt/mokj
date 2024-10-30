@@ -703,7 +703,7 @@ def pause_checking(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@Ownerxxxxx** for authorization.
+You are not authorized to use this bot. Please contact **@dar666787** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
