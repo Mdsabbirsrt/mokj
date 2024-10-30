@@ -768,7 +768,7 @@ def add_premium_user(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@dar666787** for authorization.
+You are not authorized to use this bot. Please contact **@Ownerxxxxx** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
@@ -885,7 +885,7 @@ async def _handle_docs(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **dar666787** for authorization.
+You are not authorized to use this bot. Please contact **@dar666787** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
