@@ -598,7 +598,7 @@ async def _check_cc(message):
                 edit_check_message = f"""
 🔍 **Checking:** `{current_cc}`
 🚪 **Gate:** **Braintree Auth**
-👨‍💻 **Developer:** **@Ownerxxxxx**
+👨‍💻 **Developer:** **@dar666787**
                 """
 
                 bot.edit_message_text(edit_check_message, message.chat.id, msg.message_id, reply_markup=keyboard, parse_mode="Markdown")
@@ -612,7 +612,7 @@ async def _check_cc(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @Ownerxxxxx
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:**@dar666787
     """,
     parse_mode="Markdown"
 )
@@ -623,7 +623,7 @@ async def _check_cc(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @Ownerxxxxx
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @dar666787
     """,
     parse_mode="Markdown"
 )
@@ -647,7 +647,7 @@ async def _check_cc(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@Ownerxxxxx** for authorization.
+You are not authorized to use this bot. Please contact **@dar666787* for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
@@ -675,7 +675,7 @@ def stop_checking(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@Ownerxxxxx** for authorization.
+You are not authorized to use this bot. Please contact **@dar666787** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
@@ -731,7 +731,7 @@ def resume_checking(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@Ownerxxxxx** for authorization.
+You are not authorized to use this bot. Please contact **@dar666787** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
@@ -833,7 +833,7 @@ async def _handle_docs(message):
                 edit_check_message = f"""
 🔍 **Checking:** `{current_cc}`
 🚪 **Gate:** **Braintree Auth**
-👨‍💻 **Developer:** **@Ownerxxxxx**
+👨‍💻 **Developer:** **@dar666787**
                 """
 
                 bot.edit_message_text(edit_check_message, message.chat.id, msg.message_id, reply_markup=keyboard, parse_mode="Markdown")
@@ -847,7 +847,7 @@ async def _handle_docs(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @Ownerxxxxx
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @dar666787
     """,
     parse_mode="Markdown"
 )
@@ -858,7 +858,7 @@ async def _handle_docs(message):
 💳 **𝗖𝗖:** `{current_cc}`
 🛠 **𝗚𝗮𝘁𝗲:** **Braintree Auth**
 📝 **𝗗𝗲𝘁𝗮𝗶𝗹𝘀:** {result}
-👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @Ownerxxxxx
+👨‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** @dar666787
     """,
     parse_mode="Markdown"
 )
@@ -885,7 +885,7 @@ async def _handle_docs(message):
         unauthorized_message = """
 🚫 **Access Denied** 🚫
 
-You are not authorized to use this bot. Please contact **@Ownerxxxxx** for authorization.
+You are not authorized to use this bot. Please contact **dar666787** for authorization.
 """
 
         bot.reply_to(message, unauthorized_message, parse_mode="Markdown")
