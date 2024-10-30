@@ -516,7 +516,7 @@ def send_welcome(message):
 2. **Upload a .txt file** - Upload a text file with CC combos to start checking.
 3. **/cmd or /cmds** - More Commands Info
 
-💡 *Note:* Only authorized users can access the bot. Contact @Ownerxxxxx for authorization.
+💡 *Note:* Only authorized users can access the bot. Contact @dar666787 for authorization.
 
 🔒 **Stay secure and happy checking!** 🔒
         """
