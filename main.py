@@ -926,7 +926,7 @@ def main():
 
 
     # Register the random number command handler
-    dispatcher.add_handler(CommandHandler("random", random_number))
+    dispatcher.add_handler(CommandHandler("bin", random_number))
 
 
 bot.infinity_polling()
